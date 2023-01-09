@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curso 5</title>
+</head>
+<body>
+    <h>TEMPLATE STRIGNS</h>
+    
+    <script>
+       let nombre ="Gricelda";
+       let apellido ="Avila";
+
+       //concatenacion
+       let saludo ="Hola mi nombre es "+
+       nombre + "" + apellido + ","
+       console.log(saludo);
+
+       //interpolación de variable
+       //template String
+       let saludo2 =`Hola mi nombre es ${nombre} ${apellido}`;
+       console.log(saludo2);
+
+       let ul = "<ul> <li>primavera </li> <li>verano</li><li>otoño</li><li>invierno</li>ul>";
+       console.log(ul);
+
+       let ul2 =`<ul>
+        <li>primavera </li>
+        <li>verano</li>
+        <li>otoño</li>
+        <li>invierno</li>
+        </ul>`
+
+        console.log(ul2);
+
+        let ul3 ="<ul>";
+            ul3 += "<li>primavera </li>"
+            ul3 += "<li>verano </li>"
+            ul3 += "<li>otoño</li>"
+            ul3 += "<li>invierno </li>"
+            ul3 += "</ul>";
+
+            console.log(ul3);
+        
+
+    </script>
+    
+</body>
+</html>
